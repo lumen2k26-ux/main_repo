@@ -5,17 +5,17 @@ import { AuthProvider } from "./context/AuthContext";
 import { SubscriptionProvider } from "./context/SubscriptionContext";
 
 // Pages
-import Home from "./pages/Home";
+import Home from "./Home";
 import Login from "./pages/auth/Login";
 import Register from "./pages/auth/Register";
-import MySubscriptions from "./pages/subscription/MySubscriptions";
-import ManageSubscription from "./pages/subscription/ManageSubscription";
-import BrowsePlans from "./pages/plans/BrowsePlans";
-import UsageStats from "./pages/usage/UsageStats";
-import AdminDashboard from "./pages/admin/AdminDashboard";
-import ManagePlans from "./pages/admin/ManagePlans";
-import Billing from "./pages/billing/Billing";
-import Invoices from "./pages/billing/Invoices";
+import MySubscriptions from "./subscriptions/MySubscriptions";
+import ManageSubscription from "./subscriptions/ManageSubscription";
+//import BrowsePlans from "./pages/plans/BrowsePlans";
+import UsageStats from "./usage/UsageStats";
+import AdminDashboard from "./admin/AdminDashboard";
+import ManagePlans from "./admin/ManagePlans";
+import Billing from "./billing/Billing";
+import Invoices from "./billing/Invoices";
 
 // Components
 import Navbar from "./components/Navbar";

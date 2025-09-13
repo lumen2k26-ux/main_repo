@@ -1,8 +1,8 @@
 // src/pages/admin/AdminDashboard.jsx
 import React, { useEffect, useState } from "react";
-import DashboardCard from "../../components/DashboardCard";
-import planService from "../../services/planService";
-import subscriptionService from "../../services/subscriptionService";
+import DashboardCard from "../components/DashboardCard";
+import planService from "../services/planService";
+import subscriptionService from "../services/subscriptionService";
 
 const AdminDashboard = () => {
   const [topPlans, setTopPlans] = useState([]);
