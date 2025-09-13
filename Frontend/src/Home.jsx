@@ -1,7 +1,7 @@
 // src/pages/Home.jsx
 import React, { useContext, useEffect, useState } from "react";
-import { AuthContext } from "../context/AuthContext";
-import subscriptionService from "../services/subscriptionService";
+import { AuthContext } from "./context/AuthContext";
+import subscriptionService from "./services/subscriptionService";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {

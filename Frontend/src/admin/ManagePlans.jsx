@@ -1,7 +1,7 @@
 // src/pages/admin/ManagePlans.jsx
 import React, { useEffect, useState } from "react";
-import PlanCard from "../../components/PlanCard";
-import planService from "../../services/planService";
+import PlanCard from "../components/PlanCard";
+import planService from "../services/planService";
 
 const ManagePlans = () => {
   const [plans, setPlans] = useState([]);

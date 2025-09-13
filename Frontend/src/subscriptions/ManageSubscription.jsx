@@ -1,8 +1,8 @@
 
 // src/pages/subscription/ManageSubscription.jsx
 import React, { useEffect, useContext, useState } from "react";
-import { SubscriptionContext } from "../../context/SubscriptionContext";
-import subscriptionService from "../../services/subscriptionService";
+import { SubscriptionContext } from "../context/SubscriptionContext";
+import subscriptionService from "../services/subscriptionService";
 
 const ManageSubscription = () => {
   const { subscriptions, fetchSubscriptions, removeSubscription, updateSubscription } =
