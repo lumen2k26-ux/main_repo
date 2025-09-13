@@ -1,7 +1,7 @@
 // src/pages/billing/Billing.jsx
 import React, { useEffect, useState } from "react";
-import subscriptionService from "../../services/subscriptionService";
-import billingService from "../../services/billingService";
+import subscriptionService from "../services/subscriptionService";
+import billingService from "../services/billingService";
 
 const Billing = () => {
   const [subscriptions, setSubscriptions] = useState([]);

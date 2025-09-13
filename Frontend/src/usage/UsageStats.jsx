@@ -1,6 +1,6 @@
 // src/pages/usage/UsageStats.jsx
 import React, { useEffect, useState } from "react";
-import usageService from "../../services/usageService";
+import usageService from "../services/usageService";
 
 const UsageStats = () => {
   const [usageStats, setUsageStats] = useState([]);
